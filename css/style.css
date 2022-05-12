@@ -1,0 +1,482 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;500;600;700;900&family=Rubik:wght@300;600;500;600;700;900&display=swap');
+
+/*===============
+Header-area
+=================*/
+header {
+    z-index: 9;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid #d0cbc9;
+}
+.header-area {
+    padding: 0 40px;
+}
+.main-manu ul li {
+    display: inline-block;
+}
+.main-manu ul li a {
+    font-size: 14px;
+    color: #343434;
+    padding: 44px 0;
+    display: inline-block;
+    line-height: 1;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 50px;
+    font-weight: 600;
+}
+.hire-boton {
+    margin-top: 35px;
+}
+/*================
+Slider Area
+==================*/
+.single-slider {
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+}
+.slider-icon {
+    text-align: center;
+}
+.slider-icon i {
+    font-size: 18px;
+    color: #505cfd;
+    padding: 0 10px;
+}
+.slider-text {
+    text-align: center;
+}
+.slider-text h3 {
+    font-size: 72px;
+    color: #595959;
+    font-weight: 600;
+}
+.slider-text p {
+    color: #343434;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+/*=============
+Feature Area
+===============*/
+.feature-bg {
+    background-color: #505cfd;
+    padding: 50px;
+    margin-top: -100px;
+    z-index: 9;
+    position: relative;
+    border-radius: 20px;
+}
+.single-feature i {
+    font-size: 30px;
+    color: #fff;
+}
+.single-feature h3 {
+    font-size: 22px;
+    color: #fff;
+    margin: 25px 0;
+    font-weight: 600;
+}
+.single-feature p {
+    font-size: 15px;
+    color: #fff;
+    line-height: 25px;
+    font-weight: 400;
+}
+/*===========
+wordpress
+=============*/
+.wordpress {
+    padding: 100px 0;
+}
+.wordpress-text h3 {
+    position: relative;
+    line-height: 44px;
+    font-size: 32px;
+    margin-bottom: 55px;
+    padding-bottom: 20px;
+}
+.wordpress-text h3::before {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 3px;
+    background-color: #505cfd;
+    bottom: 0;
+}
+.wordpress-text p {
+    color: #595959;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+.wordpress-img img {
+    width: 100%;
+}
+/*==============
+Subscribe Area
+================*/
+.subscribe-form-area {
+    padding: 60px 0;
+}
+.title h3 {
+    font-size: 32px;
+    line-height: 44px;
+}
+.title p {
+    color: #595959;
+    font-size: 15px;
+    line-height: 25px;
+    padding-bottom: 55px;
+    padding-top: 14px;
+}
+form input {
+    border: none;
+    padding: 0 30px;
+    height: 45px;
+    font-size: 14px;
+    border-radius: 30px;
+    color: #808080;
+    margin-left: 5px;
+}
+form button {
+    border: none;
+    height: 47px;
+    background-color: #505cfd;
+    padding: 0 30px;
+    border-radius: 30px;
+    color: #fff;
+    margin-left: 4px;
+    transition: 0.5s;
+    border: 2px solid #505cfd;
+}
+form button:hover {
+    color: #505cfd;
+    border: 2px solid #505cfd;
+    background-color: #fff;
+}
+/*==============
+Service Area
+================*/
+
+.service-wrepper {
+    border: 1px solid #ebebeb;
+    padding-top: 77px;
+    padding-bottom: 50px;
+    transition: 0.5s;
+}
+.service-wrepper:hover {
+    border: 1px solid #ddd;
+    background: #343434;
+}
+.service-wrepper:hover h3{
+    color: #fff;
+}
+.service-wrepper:hover .p{
+    color: #777777;
+}
+.service-wrepper:hover .boton{
+    color: #fff;
+}
+.service-wrepper i {
+    font-size: 48px;
+    color: #505cfd;
+    line-height: 36px;
+}
+.service-wrepper h3 {
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.service-wrepper p {
+    color: #595959;
+    margin-bottom: 55px;
+}
+/*==============
+Pricign Area
+================*/
+.pricing-area {
+    background-color: #e7e8fe;
+}
+.pricing-wrepper {
+    border: 1px solid #cfd1fc;
+    padding: 40px 0;
+    transition: 0.5s;
+}
+.pricing-wrepper:hover{
+    background-color: #fff;
+    box-shadow: 0 15px 30px 0 rgba(80, 92, 253, 0.1);
+}
+.pricing-wrepper h3 {
+    font-size: 22px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #cfd1fc;
+    margin-bottom: 53px;
+}
+.pricing-wrepper span {
+    font-size: 42px;
+    color: #505cfd;
+    line-height: 40px;
+    font-weight: 600;
+}
+.pricing-wrepper span span {
+    font-size: 22px;
+    position: relative;
+    top: -12px;
+}
+.pricing-wrepper ul {
+    padding: 35px 0 45px 0;
+}
+.pricing-wrepper 
+ ul li {
+    font-size: 15px;
+    color: #595959;
+    padding: 5px;
+}
+
+/* ============
+Counter Area
+=============== */
+.counter-area {
+    background-color: #505cfd;
+    padding-bottom: 30px;
+    padding-top: 60px;
+}
+.counter-wrepper i {
+    color: #fff;
+    font-size: 30px;
+    display: block;
+}
+.counter-wrepper span {
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 300;
+    padding: 10px 0;
+}
+.counter-wrepper p {
+    color: #fff;
+    font-weight: 300;
+}
+/* =========
+Team Area
+============ */
+.team-wrepper {
+    position: relative;
+}
+.team-wrepper:hover .team-img::before{
+    opacity: 0.7;
+    visibility: visible;
+}
+.team-img img {
+    width: 100%;
+}
+.team-img::before {
+    position: absolute;
+    content: "";
+    background: #fff;
+    top: 25px;
+    left: 25px;
+    right: 25px;
+    bottom: 25px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+.team-wrepper:hover .team-info {
+    opacity: 1;
+    visibility: visible;
+}
+.team-info {
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    transform: translate(35%, -100%);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+.team-info i {
+    color: #333;
+    font-size: 14px;
+    margin-left: 20px;
+}
+/* =============
+ Blog Area
+================ */
+.blog-contant h3 {
+    font-size: 22px;
+    color: #3f3f3f;
+    margin: 22px 0;
+}
+.blog-meta span {
+    color: #595959;
+    font-size: 14px;
+    line-height: 30px;
+}
+.meta-border {
+    background-color: #343434;
+    display: inline-block;
+    height: 2px;
+    width: 50px;
+    position: relative;
+    top: -3px;
+    margin-left: 10px;
+}
+.blog-contant p {
+    color: #595959;
+    margin-bottom: 35px;
+    line-height: 25px;
+}
+.blog-img img {
+    width: 100%;
+}
+
+/* ==================
+Tastomonial Area
+===================== */
+.tastomonia-text {
+    background-color: rgba(255,255,255,0.8);
+    padding: 70px 105px;
+}
+.tast-title h3 {
+    color: #505cfd;
+    font-size: 22px;
+}
+.tast-title span {
+    font-size: 15px;
+    color: #595959;
+    margin-bottom: 30px;
+    display: inline-block;
+}.tast-title span {
+    font-size: 15px;
+    color: #595959;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+.tastomonia-text p {
+    color: #595959;
+}
+.tastomonia-active .slick-dots {
+    position: relative;
+    margin-top: -40px;
+}
+.tastomonia-active .slick-dots li {
+    display: inline-block;
+    margin-left: 10px;
+}
+.tastomonia-active .slick-dots button {
+    font-size: 0;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #595959;
+    border-radius: 50%;
+    position: relative;
+    z-index: 9;
+}
+.tastomonia-active .slick-dots .slick-active button{
+    background-color: #595959;
+
+}
+/* Partner Area */
+.slick-slide img {
+    display: inline-block;
+}
+/* Footer Area */
+.footer-area-top {
+    background-color: #343434;
+}
+.footer-wigde h3 {
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+.footer-wigde ul {
+    margin-bottom: 35px;
+}
+.footer-wigde li {
+    color: #777;
+    line-height: 36px;
+}
+.footer-wigde i {
+    color: #fff;
+    margin-right: 30px;
+}
+nav.left {
+    float: left;
+    width: 50%;
+}
+nav.left li a {
+    color: #777;
+    line-height: 36px;
+}
+
+nav.right li a {
+    color: #777;
+    line-height: 36px;
+}
+
+nav.right li a::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f105";
+    padding-right: 10px;
+    font-size: 10px;
+}
+nav.left li a::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f105";
+    padding-right: 10px;
+    font-size: 10px;
+}
+.sm-blog {
+    margin-bottom: 25px;
+}
+.sm-blog-img {
+    float: left;
+}
+.sm-blog h3 {
+    color: #777;
+    font-size: 17px;
+    margin: 0;
+    line-height: 30px;
+    overflow: hidden;
+    padding-left: 20px;
+}
+.sm-blog span {
+    color: #777;
+    font-size: 15px;
+    overflow: hidden;
+    padding-left: 20px;
+}
+.footer-area-bottom {
+    background-color: #343434;
+    border-top: 1px solid #494949;
+}
+.copyright-area p {
+    color: #777;
+    font-size: 14px;
+    line-height: 30px;
+}
+.footer-manu {
+    float: right;
+}
+.footer-manu li {
+    display: inline-block;
+}
+.footer-manu a {
+    color: #777;
+    font-size: 15px;
+    line-height: 36px;
+    margin-left: 35px;
+}

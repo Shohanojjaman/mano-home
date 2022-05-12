@@ -1,0 +1,126 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .main-manu {
+        float: right;
+    }
+    .main-manu ul li a {
+        margin-right: 30px;
+    }
+    .hire-boton {
+        float: right;
+    }
+    .slider-text h3 {
+        font-size: 44px;
+        color: #595959;
+        font-weight: 600;
+    }
+    .feature-bg {
+        margin-top: 0;
+    }
+    .team-info {
+        transform: translate(15%, -73%);
+    }
+
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    header{
+        border:none;
+    }
+    .header-area {
+        padding: 20px 40px;
+    }
+    .slider-text h3 {
+        font-size: 36px;
+    }
+    .feature-bg {
+        margin-top: 0;
+    }
+    .single-feature h3 {
+        font-size: 18px;
+    }
+    .single-feature p {
+        font-size: 14px;
+    }
+    form input {
+        width: 25%;
+    }
+    .wordpress-text h3 {
+        font-size: 25px;
+        margin-bottom: 30px;
+        padding-bottom: 15px;
+    }
+    .wordpress-text p {
+        font-size: 14px;
+        padding-bottom: 35px;
+    }
+    .team-info {
+        transform: translate(55%, -150%);
+    }
+}
+
+ 
+/* Extra small Device. */
+@media (max-width: 767px) {
+    header{
+        border: none;
+    }
+    .header-area {
+        padding: 20px 40px;
+    }
+    .slider-text h3 {
+        font-size: 32px;
+    }
+    .feature-bg {
+        margin-top: 0;
+    }
+    .feature-bg {
+        padding: 50px 0;
+    }
+    .single-feature h3 {
+        font-size: 18px;
+    }
+    .single-feature p {
+        font-size: 14px;
+    }
+    .wordpress-text {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .wordpress-text h3::before {
+        left: 42%;
+    }
+    form input {
+        width: 100%;
+    }
+    .counter-wrepper {
+        margin-bottom: 30px;
+    }
+    .team-info {
+        transform: translate(75%, -180%);
+    }
+    .tastomonia-text {
+        padding: 70px 20px;
+    }
+    .footer-area-bottom {
+        text-align: center;
+    }
+    .footer-manu {
+        text-align: center;
+    }
+    .footer-manu a {
+        margin-right: 15px;
+    }
+}
+ 
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+}
